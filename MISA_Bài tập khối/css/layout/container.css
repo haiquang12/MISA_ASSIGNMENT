@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 56px;
+    background-color: red;
+}
+
+.nav {
+    width: 200px;
+    height: calc(100% - 56px);
+    background-color: aqua;
+}
+
+.content {
+    width: calc(100% - 200px);
+    height: calc(100% - 56px);
+    box-sizing: border-box;
+}

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                   <div class="toggle">
+                        <i class="fas fa-sliders-h icon-24"></i>
+                   </div>
+                   
+                   <div class="logo-branch">
+                        <div class="logo">
+                            <img src="./assets/image/favicon.ico" alt="logo" width="36px" height="36px" >
+                        </div>
+                        <div class="branch">
+                            KẾ TOÁN
+                        </div>
+                   </div>
+            </div>
+            <div class="header-right">
+                <div class="header-right-left">
+                    <div class="bar">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <div class="name-company">
+                        CÔNG TY TNHH SẢN XUẤT - THƯƠNG MAI - DỊCH VỤ QUI PHÚC
+                    </div>
+
+                    <div class="down">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+                <div class="header-right-right">
+                    <div class="notify">
+                        <i class="far fa-bell"></i>
+                    </div>
+
+                    <div class="avatar-name">
+                        <div class="avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="name">Bùi Văn Hải</div>
+                    </div>
+
+                    <div class="down">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="nav-list">
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fab fa-opera"></i>
+                    </div>
+                    <div class="nav-text">
+                        Tổng quan
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-yen-sign"></i>
+                    </div>
+                    <div class="nav-text">
+                        Tiền mặt
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-pound-sign"></i> 
+                    </div>
+                    <div class="nav-text">
+                        Tiền gửi
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <div class="nav-text">
+                        Mua hàng
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="nav-text">
+                        Bán hàng
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <div class="nav-text">
+                        Quản lý hóa đơn
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <div class="nav-text">
+                        Kho
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="nav-text">
+                        Công cụ dụng cụ
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-pallet"></i>
+                    </div>
+                    <div class="nav-text">
+                        Tài sản cố định
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-tenge"></i>
+                    </div>
+                    <div class="nav-text">
+                        Thuế
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-hryvnia"></i>
+                    </div>
+                    <div class="nav-text">
+                        Giá thành
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-tablet"></i>
+                    </div>
+                    <div class="nav-text">
+                        Tổng hợp
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon">
+                        <i class="fas fa-street-view"></i>
+                    </div>
+                    <div class="nav-text">
+                        Ngân sách
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="page">
+                <div class="page-header">
+                    <div class="page-title">
+                        Nhân viên
+                    </div>
+                    <div class="page-button">
+                        <button class="btn" id="add-employee">Thêm mới nhân viên</button>
+                    </div>
+                </div>
+
+                <div class="dialog">
+                    <div class="info-employee">
+                        <div class="dialog-header">
+                            <div class="dialog-header-left">
+                                <div class="title">
+                                    Thông tin nhân viên
+                                </div>
+            
+                                <div class="or-client">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Là khách hàng</label>
+                                </div>
+            
+                                <div class="or-supplier">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Là nhà cung cấp</label>
+                                </div>
+                            </div>
+            
+                            <div class="dialog-header-right">
+                                <div class="tutorial icon-24">
+                                    <i class="far fa-question-circle"></i>
+                                </div>
+                                <div class="close icon-24">
+                                    <i class="fas fa-times"></i>
+                                </div>
+                                
+                            </div>
+            
+                        </div>
+            
+                        <div class="dialog-content">
+                            <div class="dialog-content-above">
+                                <div class="dialog-content-above-left">
+            
+                                    <div class="code-name">
+                                        <div class="code">
+                                            <label for="">Mã *</label>
+                                            <input type="text" class="input input-size-code" name="" id="" placeholder="MF-1554">
+                                        </div>
+                                        <div class="name">
+                                            <label for="">Tên *</label>
+                                            <input type="text" class="input input-size-name" name="" id="" placeholder="Bùi Văn Hải">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="unit">
+                                        <label for="">
+                                            Đơn vị *
+                                        </label>
+                                        <select class="dropdown select select-size" name="" id="">
+                                            <option value="">Phòng kinh doanh</option>
+                                            <option value="">PHòng kế toán</option>
+                                            <option value="">Phòng phát triển</option>
+                                            <option value="">Viện nghiên cứu</option>
+                                        </select>                                  
+                                        
+                                    </div>
+            
+                                    <div class="office">
+                                        <label for="">Chức danh</label>
+                                        <input type="text" class="input input-office" name="" id="" placeholder="Lễ tân chính">
+                                    </div>
+                                </div>
+                                <div class="dialog-content-above-right">
+                                    <div class="birth-gender">
+                                        <div class="birth">
+                                            <label for="">Ngày sinh</label>
+                                            <input type="date" class="input input-date-birth" name="" id="">
+                                        </div>
+                                        <div class="gender">
+                                            <div class="gender-text">
+                                                <label for="">Giới tính</label> 
+                                            </div>
+                                            <div class="gender-type">
+                                                <input type="radio" class="input-radio-gender" name="" id="">Nam
+                                                <input type="radio" class="input-radio-gender" name="" id="">Nữ
+                                                <input type="radio" class="input-radio-gender" name="" id="">Khác
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cmnd-date-range">
+                                        <div class="cmnd">
+                                            <div class="cmnd-text">
+                                                <label for="">Số CMND</label>
+                                            </div>
+                                            <div class="cmnd-number">
+                                                <input type="text" class="input input-cmnd" name="" id="" placeholder="01111444557">
+                                            </div>
+                                        </div>
+            
+                                        <div class="date-range">
+                                            <div class="date-text">
+                                                <label for="">Ngày cấp</label>
+                                            </div>
+                                            <div class="date-number">
+                                                <input type="date" class="input input-date-cmnd" name="" id="">
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="issue-place">
+                                        <div class="place-text">
+                                            <label for="">Nơi cấp</label>
+                                        </div>
+            
+                                        <div class="issue-place-input">
+                                            <input type="text" class="input input-issue-place" name="" id="" placeholder="Thái Bình">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="dialog-content-below">
+                                <div class="address">
+                                    <div class="address-text">
+                                        <label for="">Địa chỉ</label>
+                                    </div>
+            
+                                    <div class="address-input">
+                                        <input type="text" class="input input-address-size" name="" id="" placeholder="Đông La, Đông Hưng, Thái Bình" >
+                                    </div>
+                                </div>
+                                
+                                <div class="phone-email">
+                                    <div class="mobile-phone">
+                                        <div class="mobile-text">
+                                            <label for="">ĐT di động</label>
+                                        </div>
+                                        <div class="mobile-number">
+                                            <input type="text" class="input input-phone" name="" id="" placeholder="0837821222">
+                                        </div>
+                                    </div>
+            
+                                    <div class="landline-phone">
+                                        <div class="landline-text">
+                                            <label for="">ĐT cố định</label>
+                                        </div>
+            
+                                        <div class="landline-number">
+                                            <input type="text" class="input input-phone" name="" id="" placeholder="(012) 125 255">
+                                        </div>
+                                    </div>
+            
+                                    <div class="email">
+                                        <div class="email text">
+                                            <label for="">Email</label>
+                                        </div>
+            
+                                        <div class="email-input">
+                                            <input type="text" class="input input-email-size" name="" id="" placeholder="quanghai12112001@gmail.com">
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="account">
+                                    <div class="account-number">
+                                        <div class="account-text">
+                                            <label for="">Tài khoản ngân hàng</label>
+                                        </div>
+                                        <div class="account-number-input">
+                                            <input type="text" class="input input-account-size" name="" id="" placeholder="944615">
+                                        </div>
+                                    </div>
+                                    <div class="account-name">
+                                        <div class="account-name-text">
+                                            <label for="">Tên ngân hàng</label>
+                                        </div>
+                                        <div class="account-name-input">
+                                            <input type="text" class="input input-account-name-size"name="" id="" placeholder="Ngân hàng quân đội">
+                                        </div>
+                                    </div>
+            
+                                    <div class="account-branch">
+                                        <div class="account-branch-text">
+                                            <label for="">Chi nhánh</label>
+                                        </div>
+            
+                                        <div class="account-branch-input">
+                                            <input type="text" class="input input-account-branch-size" name="" id="" placeholder="Hà Nội">
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+            
+                        <div class="dialog-footer">
+                            <hr>
+                            <div class="btn-cancel-add-save">
+                                <div class="btn-cancel">
+                                    <button id="cancel-dialog" class="btn btn-cancel-att">Hủy</button>
+                                </div>
+            
+                                <div class="btn-add-save">
+                                    <button class="btn btn-save-att">Cất</button>
+                                    <button class="btn">Cất và thêm</button>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-content">
+                    <div class="table">
+                        <div class="table-toolbar">
+                            <div class="toolbar-search">
+                                <input type="text" class="input input-search" placeholder="Tìm kiếm theo mã, tên nhân viên">
+                            </div>
+
+                            <div class="toolbar-load icon-24">
+                                <i class="fas fa-redo-alt"></i>
+                            </div>
+                        </div>
+
+                        <div class="table-content">
+                            <table border="1" id="tbEmployeeList">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox"></th>
+                                        <th>MÃ&nbspNHÂN&nbspVIÊN</th>
+                                        <th>TÊN&nbspNHÂN&nbspVIÊN</th>
+                                        <th>GIỚI&nbspTÍNH</th>
+                                        <th>NGÀY&nbspSINH</th>
+                                        <th>Số&nbspCMND</th>
+                                        <th>Chức&nbspDanh</th>
+                                        <th>Tên&nbspđơn&nbspvị</th>
+                                        <th>Số&nbspTài&nbsp Khoản</th>
+                                        <th>TÊN&nbspNGÂN&nbspHÀNG</th>
+                                        <th>CHI&nbspNHÁNH&nbspTÀI&nbspKHOẢN&nbspNGÂN&nbspHÀNG</th>
+                                        <th>CHỨC&nbspNĂNG</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="table__paging">
+                            <div class="table__paging-left">
+                                <div class="total-record">
+                                    Tổng số: <b>1035</b> bản ghi
+                                </div>
+                                
+                            </div>
+                            <div class="table__paging-right">
+                                <div class="paging-select">
+                                    <select name="" id="">
+                                        <option value="">20 bản ghi trên 1 trang</option>
+                                        <option value="">30 bản ghi trên 1 trang</option>
+                                        <option value="">40 bản ghi trên 1 trang</option>
+                                        <option value="">50 bản ghi trên 1 trang</option>
+                                    </select>
+                                    
+                                </div>
+                                <button class="s-btn-pre">
+                                    Trước
+                                </button>
+                                <div class="s-btn-group-number">
+                                    <button class="s-btn-number btn-number-bgc">
+                                        1
+                                    </button>
+                                    <button class="s-btn-number btn-number-bgc">
+                                        2
+                                    </button>
+                                    <button class="s-btn-number btn-number-bgc">
+                                        3
+                                    </button>
+                                    <button class="s-btn-number btn-number-bgc">
+                                        ...
+                                    </button>
+                                    <button class="s-btn-number btn-number-bgc">
+                                        52
+                                    </button>
+                                </div>
+                                <button class="s-btn-next">
+                                    Sau
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Thư viện -->
+    <script src="./js/jquery-3.6.3.min.js"></script>
+
+    <!-- js sử dụng chung -->
+    <script src="./js/base/common.js"></script>
+    <script src="./js/base/common.js"></script>
+    <script src="./js/base/enum.js"></script>
+
+    <!-- js sử dụng riêng cho page -->
+    <script src="./js/pages/employee.js"></script>
+
+
+    <script>
+        document.getElementById("add-employee").addEventListener("click", function() {
+            var dialog = document.getElementsByClassName("dialog");
+            dialog[0].style.display="block";
+        })
+
+        document.getElementById("cancel-dialog").addEventListener("click", function() {
+            var dialog = document.getElementsByClassName("dialog");
+            dialog[0].style.display="none";
+        })
+    </script>
+
+</body>
+</html>

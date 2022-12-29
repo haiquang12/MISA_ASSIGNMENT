@@ -1,0 +1,78 @@
+.input{
+	width: 300px;
+	height: 36px;
+	padding: 0px 12px;
+	border-radius: 4px;
+	margin-top: 8px;
+	border: 1px solid #b6b6b6;
+}
+.input::placeholder{
+	color: #999999;
+  	font-size: 14px;
+	
+}
+.input:hover{
+	background-color: #e6e6e6;
+  	cursor: pointer;
+}
+.input:focus{
+	border: 1px solid #50b83c;
+  	outline: none;
+}
+
+.input-size-code,
+.input-size-name {
+    width: 90%;
+}
+
+.input-office {
+	width: 448px;
+}
+
+.input-date-birth {
+	width: 180px;
+}
+
+.input-date-cmnd {
+	width: 128px;
+}
+
+.input-radio-gender {
+	width: 24px;
+	height: 24px;
+}
+
+.input-cmnd {
+	width: 250px;
+}
+
+.input-issue-place	 {
+	width: 412px;
+}
+
+.input-address-size {
+	width: 924px;
+}
+
+.input-phone,
+.input-email-size,
+.input-account-size,
+.input-account-name-size,
+.input-account-branch-size {
+	width: 200px;
+}
+
+.select{
+  	width: 300px;
+	height: 36px;
+  	padding: 0 12px;
+  	border-radius: 4px;
+	margin-top: 8px;
+	outline: unset;
+  	border: 1px solid #b6b6b6;
+	
+}
+
+.select-size {
+    width: 99.5%;
+}

@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    box-sizing: border-box;
+}  
+
+.header-left {
+    display: flex;
+    width: 200px;
+    height: 100%;
+    padding: 0 16px;
+    column-gap: 16px;
+    align-items: center;
+    background-color: #263237;;
+    box-sizing: border-box;
+}
+
+.header-left .toggle {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.header-left .logo-branch {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    column-gap: 8px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-left .logo-branch .logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+}
+
+.header-left .logo-branch .branch {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-right {
+    display: flex;
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.header-right-left {
+    display: flex;
+    width: 800px;
+    height: 100%;
+    padding-left: 24px;
+    align-items: center;
+}
+
+.header-right-left .bar {
+    font-size: 24px;
+}
+
+.header-right-left .name-company {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 32px;
+}
+
+.header-right-left .down {
+    padding-left: 12px;
+}
+
+.header-right-right {
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 800px);
+    height: 100%;
+    padding-right: 24px;
+    align-items: center;
+}
+
+.header-right-right .notify {
+    font-size: 24px;
+}
+
+.header-right-right .avatar-name {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    column-gap: 4px;
+}
+
+.header-right-right .avatar-name .avatar {
+    font-size: 32px;
+}
+
+.header-right-right .down {
+    font-size: 12px;
+    padding-left: 12px;
+}
